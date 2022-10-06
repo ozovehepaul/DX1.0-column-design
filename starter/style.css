@@ -5,18 +5,23 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
 }
 /* ==== Common Fix ends here==== */
 
 /* ===== First section starts here===== */
 
 .firstsection{
-    height: 430px;
-    border: 3px solid black;
+    height: 460px;
+    /* border: 3px solid black; */
     display: flex;
 }
 
 .firstsection-leftdiv{
+    padding: 20px;
     width: 50%;
     height: 100%;
     background: var(--gray-color);
@@ -26,10 +31,35 @@
     width: 50%;
     height: 100%;
     background: var(--linear-gradient), url("./images/image1.jpg");
-    /* this shows that you can declare more than one variable in one line, seperated by comma  */
+    /* this shows that you can declare more than one variable in one line, seperated by  */
     background-size: cover;
     background-position: bottom left;
 
 }
-/* ===== First section starts here===== */
 
+span {
+    color: var( --main-color);
+}
+.logotext{
+    margin-bottom: 20px;
+}
+.heading{
+    margin-bottom: 20px;
+}
+
+.line{
+    height: 16px;
+    background: var(--main-color);
+    width: 224px;
+}
+
+.firstsection-leftdiv p{
+    margin-bottom: 25px;
+}
+.linkholder{
+    color: var(--white-color);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    /* ===== First section starts here===== */
