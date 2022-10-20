@@ -1,60 +1,167 @@
+/* ==== Common Fix starts here==== */
 
-
-/* universal selector starts here */
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-   
 }
-body{ font-family: 'Inter', sans-serif;}
-/* universal selector ends here */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+/* ==== Common Fix ends here==== */
 
 
 /* ===== First section starts here===== */
-
-.firstsection{
+.firstsection {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1500px;
     height: 460px;
-    border: 3px solid black;
-    /* background: yellow; */
+}
+
+.firstsection-leftdiv {
+    padding: 20px;
+    background: var(--gray-color);
+    width: 50%;
+    height: 100%;
+}
+
+.firstsection-rightdiv {
+    background:var(--linear-gradient), url(./images/image1.jpg);
+    background-size: cover;
+    background-position: bottom left;
+    width: 50%;
+    height: 100%;
     display: flex;
 }
-.firstsection-leftdiv{
-    width: 50%;
-    height: 100%;
-    background: var(--gray-color);
-    padding: 20px;
-}
 
-.firstsection-rightdiv{
-    height: 100%;
-    width: 50%;
-    border: solid pink;
-background: var(--linear-gradient), url("./images/image1.jpg");
-background-size: cover;
-background-position: bottom left;
-}
-
-span{color: var(--main-color);}
-
-.logotext{margin-bottom: 20px;}
-
-.heading{ margin-bottom: 20px;}
-
-.line{
+.line {
+    background: var(--main-color);
     height: 16px;
     width: 224px;
-    background: var(--main-color);
 }
 
-.firstsection-leftdiv p{margin-bottom: 25px;}
+span {
+    color: var(--main-color);
+}
 
-.link-holder{
-    /* border: 3px solid orangered; */
-    color: var(--white-color);
-    text-transform: uppercase;
+.logotext {
+    margin-bottom: 20px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.firstsection-leftdiv p {
+    margin-bottom: 25px;
+}
+
+.link-holder {
     display: flex;
     justify-content: space-evenly;
+    color: var(--white-color);
     padding: 20px 0;
+    width: 100%;
 }
-/* ===== First section ends here===== */
+
+/* ==== First section ends here ==== */
+
+/* ==== Second section starts here ==== */
+
+.secondsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.secondsection-leftdiv{
+    width: 310px;
+    height: 400px;
+    background: var(--gray-color);
+    padding: 40px 25px;
+}
+.secondsection-leftdiv p{
+    margin: 10px 0;
+}
+.secondsection-rightdiv {
+    margin-left: 20px;
+    width: 340px;
+    height: 460px;
+    background: var(--main-color);
+}
+/* ==== Second section ends here ==== */
+
+/* ==== Third section starts here ==== */
+
+.thirdsection {
+    background: var(--gray-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.thirdsection-leftdiv,
+.thirdsection-rightdiv {
+    width: 350px;
+    height: 460px;
+}
+
+.thirdsection-leftdiv{
+    background: url("./images/image3.jpg");
+    background-size: cover;
+}
+
+.thirdsection-rightdiv {
+    background: var(--main-color);
+    padding: 30px 25px;
+
+}
+
+.thirdsection-rightdiv p{
+    margin: 10px 0;
+}
+
+/* ==== Footer section starts here ==== */
+
+.footer {
+    background: var(--main-color);
+    padding: 20px 0;
+    flex-wrap: wrap;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.footericon {
+    color: var(--white-color);
+    margin: 0 5px;
+}
+
+
+/* ==== Footer section ends here ==== */
+
+
+
+
+
+
+

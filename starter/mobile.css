@@ -1,0 +1,86 @@
+/* ==== Mobile version --- Using Media Queries ==== */
+
+@media screen and (max-width:600px) {
+
+    /* ==== First section starts here ==== */
+.firstsection {
+    height: 520px;
+}
+
+        .firstsection-leftdiv {
+            width: 60%;
+        }
+    
+        .firstsection-rightdiv {
+            width: 40%;
+        }
+    
+        .heading {
+            font-size: 25px;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    
+        .line {
+            width: 200px;
+        }
+    
+        .link-holder {
+            flex-direction: column;
+            justify-content: flex-start;
+            padding-top: 25px;
+            padding-left: 40px;
+        }
+    
+        .link-holder h4 {
+            margin-bottom: 20px;
+        }
+    /* ==== First section ends here ==== */
+    
+    
+    /* ==== Second section ends here ==== */
+    .secondsection{
+        flex-direction: column;
+    }
+        .secondsection-rightdiv {
+            margin-left: 0;
+            margin-top: 30px;
+        }
+    
+       /* ==== Second section ends here ==== */
+    
+    
+    
+       /* ==== Third section section ends here ==== */
+    
+        .thirdsection {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .thirdsection-leftdiv{
+            margin-top: 30px;
+        }
+    
+    
+    
+    /* ==== Third section section ends here ==== */
+    
+    
+    /* ==== Footer section starts here ==== */
+    
+        .footer {
+            flex-direction: column;
+            padding: 20px 30px;
+            text-align: center;
+        }
+        .footer-iconcontainer{
+            margin: 15px 0;
+        }
+        
+    /* ==== Footer section ends here ==== */
+    
+    }
+    
+    /* ==== Mobile version --- Using Media Queries ==== */
