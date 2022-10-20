@@ -47,10 +47,11 @@ ScrollReveal().reveal('.line',{
 
 ScrollReveal().reveal('.line, .firstsection-rightdiv', {
     rotate: {
-        x: -270,
-        y: 270,
-        // z: 2000,
+        x: 270,
+        y: -270,
+        z: 200,
         duration: 2000,
+        origin:"left",
         scale: 4 
     }
 });
