@@ -23,7 +23,10 @@ body {
     margin: 0 auto;
     max-width: 1500px;
     height: 460px;
+    overflow: hidden;
 }
+
+
 
 .firstsection-leftdiv {
     padding: 20px;
@@ -31,6 +34,11 @@ body {
     width: 50%;
     height: 100%;
 }
+
+/* .firstsection-leftdiv h1{
+    font-weight: bolder;
+    font-weight: 900;
+} */
 
 .firstsection-rightdiv {
     background:var(--linear-gradient), url(./images/image1.jpg);
@@ -83,6 +91,7 @@ span {
     padding: 50px 0;
     margin: 0 auto;
     max-width: 1500px;
+    overflow: hidden;
 }
 
 .secondsection-leftdiv{
@@ -159,7 +168,9 @@ span {
 
 /* ==== Footer section ends here ==== */
 
-
+html.sr .load-hidden {
+    visibility: hidden;
+}
 
 
 
